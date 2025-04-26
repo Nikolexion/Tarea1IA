@@ -50,5 +50,5 @@ El objetivo es encontrar el **camino con la menor cantidad de movimientos** desd
 ## 📦 Cómo ejecutar
 
 ```bash
-git clone [https://github.com/Nikolexion/Tarea1IA.git](https://github.com/Nikolexion/Tarea1IA.git)
+git clone [https://github.com/Nikolexion/Tarea1IA.git]
 python main.py
