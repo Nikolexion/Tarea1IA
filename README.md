@@ -1,6 +1,6 @@
 # Laberinto Saltarín
 
-Este proyecto resuelve el problema del **Laberinto Saltarín** utilizando algoritmos de búsqueda en grafos. Fue desarrollado como parte de la **Tarea 1** del curso **Inteligencia Artificial 2025**.
+Este proyecto resuelve el problema del **Laberinto Saltarín** utilizando algoritmos de búsqueda en grafos. Fue desarrollado como parte de la **Tarea 1** del curso **Inteligencia Artificial**.
 
 ---
 
@@ -23,15 +23,16 @@ El objetivo es encontrar el **camino con la menor cantidad de movimientos** desd
   - Representación del tablero.
   - Animación del avance paso a paso.
   - Cambio entre algoritmos en tiempo real.
-  - Avance automático al siguiente laberinto.
+  - Avance al siguiente laberinto.
 
 ---
 
 ## Estructura del Proyecto
 
-- `laberintoSaltarin.py`: Clase que modela el entorno del laberinto.
+- `laberintoSaltarin.py`: Clase que modela la lógica del laberinto.
 - `dfs.py`: Implementación del algoritmo de búsqueda en profundidad.
-- `ucs.py`: Implementación del algoritmo de búsqueda por costo uniforme.
+- `ucs.py`: Implementación del algoritmo de búsqueda por costo uniforme con costos unitarios (cada movimiento cuesta 1).
+- `ucs2.py`: Implementación del algoritmo de búsqueda por costo uniforme con costos variables (cada movimiento cuesta el número que tiene en la cuadrícula).
 - `grafics.py`: Interfaz gráfica usando **Pygame**.
 - `main.py`: Script principal que lanza la ejecución.
 - `laberintos.txt`: Archivo de entrada con múltiples laberintos de ejemplo.
